@@ -102,4 +102,4 @@ gulp.task("build-js", ['fileinclude'], function(callback) {
 gulp.task('default', ['fileinclude', 'md5:js']);
 
 //开发
-gulp.task('dev', ['connect', 'build-js']);
+gulp.task('dev', ['connect', 'build-js','watch']);
