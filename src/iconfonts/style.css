@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?cb1xh9');
+    src:    url('fonts/icomoon.eot?cb1xh9#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?cb1xh9') format('truetype'),
+        url('fonts/icomoon.woff?cb1xh9') format('woff'),
+        url('fonts/icomoon.svg?cb1xh9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Wei_UI_location:before {
+    content: "\e901";
+}
+.icon-Wei_UI_record:before {
+    content: "\e902";
+}
+.icon-Wei_UI_app:before {
+    content: "\e903";
+}
+.icon-Wei_UI_user:before {
+    content: "\e904";
+}
+.icon-Wei_UI_clock_o:before {
+    content: "\e905";
+}
+.icon-Wei_UI_star_o:before {
+    content: "\e906";
+}
+.icon-Wei_UI_heart_o:before {
+    content: "\e907";
+}
+.icon-Wei_UI_right_arrow:before {
+    content: "\e908";
+}
+.icon-Wei_UI_down_arrow:before {
+    content: "\e909";
+}
+.icon-Wei_UI_download:before {
+    content: "\e90a";
+}
+.icon-Wei_UI_position:before {
+    content: "\e90b";
+}
+.icon-Wei_UI_check_o:before {
+    content: "\e90d";
+}
+.icon-Wei_UI_play_o:before {
+    content: "\e90e";
+}
+.icon-Wei_UI_suspend_o:before {
+    content: "\e90f";
+}
+.icon-Wei_UI_qrcord_search:before {
+    content: "\e900";
+}
+
