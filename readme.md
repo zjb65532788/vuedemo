@@ -7,4 +7,4 @@
 	gulp dev
 	配置域名 打开域名下/dist/Mobilenew/index.html 即可
 #demo 地址
-	[我的博客](http://blog.csdn.net/guodongxiaren)
+[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
