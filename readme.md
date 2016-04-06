@@ -7,5 +7,5 @@
 	gulp dev
 	配置域名 打开域名下/dist/Mobilenew/index.html 即可
 #demo 地址
-[http://dfm.ilivebase.com/dist/Mobilenew](http://dfm.ilivebase.com/dist/Mobilenew)
+[http://dfm.ilivebase.com/dist/Mobilenew](http://dfm.ilivebase.com/dist/Mobilenew)\<br>
 ![](http://alicliimg.clewm.net/760/092/092760/997ed10b8633636aa48c3205fc48f31f.png)
