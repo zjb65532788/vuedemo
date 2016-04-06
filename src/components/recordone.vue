@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="regular_value">
+		<div class="regular_value" v-show="loaded">
 			<h2 class="title">{{list.regular_value.product_info.value}}</h2>
 			<div class="regular_info">
 				<div class="per">
@@ -19,11 +19,13 @@
 			</div>
 		</div>
 		<div></div>
+		<loading :is_show="is_show"></loading>
 		<router-view></router-view>
 	</div>
 </template>
 <script>
 	require('../iconfonts/style.css');
+	import loading from './loading';
 	import Vue from 'vue';
 	import touches from '../directives/touches'
 
@@ -77,7 +79,9 @@
 	  	data () {
 	  		return {
 		      	list:{},
-		      	user_id:''
+		      	user_id:'',
+		      	is_show:true,
+		      	loaded:false
 		    }
 	  	},
 	  	ready(){
@@ -94,6 +98,8 @@
 		          		}
 		          	}
 		          	this.$set('list', values);
+		          	this.is_show=false;
+		          	this.loaded=true;
 		          }
 		    }, function (response) {
 		          // error callback
@@ -108,7 +114,8 @@
   			'picupload':record_picupload,
   			'radio':record_input,
   			'textarea':record_input,
-  			'date':record_input
+  			'date':record_input,
+  			'loading':loading
   		}
 	}
 </script>
