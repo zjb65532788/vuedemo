@@ -8,3 +8,4 @@
 	配置域名 打开域名下/dist/Mobilenew/index.html 即可
 #demo 地址
 [http://dfm.ilivebase.com/dist/Mobilenew](http://dfm.ilivebase.com/dist/Mobilenew)
+![](http://qr.api.cli.im/qr?data=http%253A%252F%252Fdfm.ilivebase.com%252Fdist%252FMobilenew&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=e821dc8d92f9ba886aff3efef21f90f6)
