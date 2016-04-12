@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="record_one">
 		<div class="regular_value" v-show="loaded">
 			<h2 class="title">{{list.regular_value.product_info.value}}</h2>
 			<div class="regular_info">
@@ -15,42 +15,32 @@
 		</div>
 		<div class="values">
 			<div v-for="item in list.value">
-				<component  :is="item.field_type" :data="item" :product_id="$route.params.product_id" :record_id="$route.params.record_id" :index="$index" :user_id="list.user_id"></component>
+				<component  :is="'record_'+item.field_type" :data="item" :product_id="$route.params.product_id||product_id" :record_id="$route.params.record_id||record_id" :index="$index" :user_id="list.user_id"></component>
 			</div>
 		</div>
-		<div></div>
+		<div class="bottom_hei"></div>
 		<loading :is_show="is_show"></loading>
 		<router-view></router-view>
 	</div>
 </template>
 <script>
 	require('../iconfonts/style.css');
+	require('../css/weui/widget/weui_cell/weui_cell_global.less');
+	require('../css/weui/widget/weui_cell/weui_uploader.less');
 	import loading from './loading';
 	import Vue from 'vue';
 	import touches from '../directives/touches'
 
-	var record_group=Vue.component('record_group',function(resolve){
-		require(['./record_group'], resolve)
-	});
-	var record_audio=Vue.component('record_audio',function(resolve){
-		require(['./record_audio'], resolve)
-	});
-	var record_checkbox=Vue.component('record_checkbox',function(resolve){
-		require(['./record_checkbox'], resolve)
-	});
-	var record_input=Vue.component('record_input',function(resolve){
-		require(['./record_input'], resolve)
-	});
-	var record_location=Vue.component('record_location',function(resolve){
-		require(['./record_location'], resolve)
-	});
-	var record_picupload=Vue.component('record_picupload',function(resolve){
-		require(['./record_picupload'], resolve)
-	});
-	var record_radio=Vue.component('record_radio',function(resolve){
-		require(['./record_radio'], resolve)
-	});
+	import record_group from './record_group';
+	import record_audio from './record_audio';
+	import record_checkbox from './record_checkbox';
+	import record_input from './record_input';
+	import record_location from './record_location';
+	import record_picupload from './record_picupload';
+	import record_radio from './record_radio';
+
 	export default {
+		'props':['product_id','record_id','data'],
 	  	events:{
 	    	sotpotheraudio:function(){
 	    		if(this.nowplaying){
@@ -78,14 +68,30 @@
 	  	},
 	  	data () {
 	  		return {
-		      	list:{},
+		      	list:{
+		      		'regular_value':{
+		      			product_info:{
+		      				'value':''
+		      			},
+		      			record_user:{
+		      				'value':''
+		      			},
+		      			record_time:{
+		      				'value':''
+		      			}
+		      		}
+		      	},
 		      	user_id:'',
 		      	is_show:true,
 		      	loaded:false
 		    }
 	  	},
 	  	ready(){
-	  		this.$http.post('/recordone.json',{product_id:this.$route.params.product_id,id:this.$route.params.record_id},{headers: {
+	  		if(this.data){
+	  			this.list=this.data;
+	  			return false;
+	  		}
+	  		this.$http.post('/recordone.json',{product_id:this.$route.params.product_id||this.product_id,id:this.$route.params.record_id||this.record_id},{headers: {
                 	"X-Requested-With": "XMLHttpRequest"
             	},emulateJSON: true}).then(function (response) {
 		          if(response.data.status==1){
@@ -106,22 +112,25 @@
 		    });
 	  	},
 	  	components:{
-  			'group':record_group,
-  			'input':record_input,
-  			'checkbox':record_checkbox,
-  			'audio':record_audio,
-  			'location':record_location,
-  			'picupload':record_picupload,
-  			'radio':record_input,
-  			'textarea':record_input,
-  			'date':record_input,
+  			'record_group':record_group,
+  			'record_input':record_input,
+  			'record_checkbox':record_checkbox,
+  			'record_audio':record_audio,
+  			'record_location':record_location,
+  			'record_picupload':record_picupload,
+  			'record_radio':record_input,
+  			'record_textarea':record_input,
+  			'record_date':record_input,
   			'loading':loading
   		}
 	}
 </script>
 <style>
+	body{background-color:#fbf9fe}
 	.regular_value {
-	    padding: 10px 15px;
+	    padding:30px 14px 0px;
 	}
 	.per i,.time i{font-size: 12px;}
+	.bottom_hei{height:2rem}
+	.record_one .field_name{color:#4caf50}
 </style>

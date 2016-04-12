@@ -2,7 +2,6 @@
 	<div>
 		<div class="group-hd">
 			<p class="group-page-title">
-				<span class="icon-Wei_UI_app"></span>
 				<span>{{data.field_name}}</span>
 			</p>
 		</div>
@@ -12,15 +11,17 @@
 	export default {
 		props:['data'],
 		data () {
-
+			return{}
 	  	}
 	}
 </script>
 <style>
 	.group-hd {
-	    padding-top: 3em;
+	    padding-top: 3rem;
+	    font-size:2rem;
+	    color:#69676C;
 	}
-	.group-page-title{margin-left:0.8em}
+	.group-page-title{margin-left:15px;}
 	.group-page-title span.icon-Wei_UI_app {
 	    padding-right: 0px;
 	    font-size: 12px;

@@ -4,7 +4,7 @@
 		<div class="weui_cells" :locationname="list.value.name" id="wx_location" locationmap="list.value.map">
 			<div class="weui_cell">
 				<div class="weui_cell_hd weui_cell_hd icon-Wei_UI_location"></div>
-				<div class="weui_cell_bd weui_cell_primary" @click="openmap(list.value.mapN,list.value.mapE,list.value.baidumapN,list.value.baidumapE)">
+				<div class="weui_cell_bd weui_cell_primary">
 					<dl class="rlocation">
 						<dt>{{list.value.map}}</dt>
 						<dd>{{list.value.name}}</dd>

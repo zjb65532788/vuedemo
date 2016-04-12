@@ -1,0 +1,440 @@
+{
+    "data": {
+        "list": [
+            {
+                "id": "1922",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 17:47:25",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1921",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 17:29:58",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1920",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 17:27:22",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1918",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 17:22:49",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1914",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 14:33:02",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1913",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 14:28:33",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1912",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 14:17:22",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1911",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 14:12:30",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1910",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 14:10:41",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            },
+            {
+                "id": "1909",
+                "title": "vue模板重构",
+                "title_value": {
+                    "name": "记录类型",
+                    "value": "zjb模板侧四(复制)",
+                    "field_type": "input"
+                },
+                "regular_value": {
+                    "product_name": {
+                        "name": "产品名称",
+                        "value": "vue模板重构",
+                        "field_type": "input"
+                    },
+                    "batchinfo": {
+                        "name": "批次名称",
+                        "value": ""
+                    },
+                    "wuinfo": {
+                        "name": "商品编号",
+                        "value": ""
+                    },
+                    "record_user": {
+                        "name": "记录人",
+                        "type": "input",
+                        "field_type": "input",
+                        "value": "公开用户（***e7BA）"
+                    },
+                    "record_time": {
+                        "name": "添加时间",
+                        "value": "2016-04-11 13:54:44",
+                        "type": "date",
+                        "field_type": "date"
+                    },
+                    "template_name": {
+                        "name": "记录类型",
+                        "value": "zjb模板侧四(复制)",
+                        "field_type": "input"
+                    }
+                },
+                "value": null,
+                "template_id": "2544"
+            }
+        ],
+        "count": "33",
+        "hasmore": true
+    },
+    "info": "",
+    "status": 1
+}
